@@ -1,0 +1,37 @@
+[
+    {
+        "certificate_info": {
+            "pkcs12_filename": "/home/albin/Documents/core-java-spring/certificates/testcloud2/sysop.p12",
+            "pkcs12_password": "123456"
+        },
+        "urls": {
+            "service_regisrty_url": "https://benkpress.campus.ltu.se:8443/serviceregistry",
+            "authorization_url": "https://benkpress.campus.ltu.se:8445/authorization",
+            "orchestration_url": "https://benkpress.campus.ltu.se:8441/orchestrator"
+        },
+        "consumer_json": {
+            "systemName": "aimbot_consumer",
+            "address": "https://benkpress.ltu.campus.se",
+            "port": 1234,
+            "authenticationInfo": ""
+        },
+        "provider_json": {
+            "systemName": "aimbot_provider",
+            "address": "https://benkpress.ltu.campus.se",
+            "port": 1235,
+            "authenticationInfo": ""
+        },
+        "service_definition_json": {
+            "serviceDefinition": "service_definition",
+            "providerSystem": {
+                "systemName": "aimbot_provider",
+                "address": "https://benkpress.ltu.campus.se",
+                "port": 1235,
+                "authenticationInfo": ""
+            },
+            "interfaces": [
+                "HTTPS-SECURE-JSON"
+            ]
+        }
+    }
+]
