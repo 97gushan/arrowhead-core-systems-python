@@ -12,7 +12,7 @@ with open("config_template.json") as json_file:
     consumer_name = config["consumer_json"]["systemName"]
     provider_json = config["provider_json"]
     provider_name = config["provider_json"]["systemName"]
-    service_definition_json = config["consumer_json"]
+    service_definition_json = config["service_definition_json"]
     service_definition = config["service_definition_json"]["serviceDefinition"]
 
 
