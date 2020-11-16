@@ -1,0 +1,11 @@
+{
+    "certificate_info": {
+        "pkcs12_filename": "/home/user/Projects/arrowhead/core-java-spring/certificates/testcloud2/sysop.p12",
+        "pkcs12_password": "123456"
+    },
+    "urls": {
+        "service_registry_url": "https://localhost:8443/serviceregistry",
+        "authorization_url": "https://localhost:8445/authorization",
+        "orchestration_url": "https://localhost:8441/orchestrator"
+    }
+}

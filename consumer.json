@@ -1,0 +1,14 @@
+{
+    "service_definition_json": {
+        "serviceDefinition": "hello-consumer",
+        "providerSystem": {
+            "systemName": "consumer",
+            "address": "https://localhost",
+            "port": 4032,
+            "authenticationInfo": ""
+        },
+        "interfaces": [
+            "HTTPS-SECURE-JSON"
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "service_definition_json": {
+        "serviceDefinition": "hello-producer",
+        "providerSystem": {
+            "systemName": "producer",
+            "address": "https://localhost",
+            "port": 3034,
+            "authenticationInfo": ""
+        },
+        "interfaces": [
+            "HTTPS-SECURE-JSON"
+        ]
+    }
+}
